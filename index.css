@@ -1,0 +1,25 @@
+*{
+	font-family: "Comfortaa", monospace;
+}
+
+#landing_page{
+	background-color: #4e939e;
+}
+
+#project_page{
+	background-color: #4e6b9e;
+}
+nav{
+	background-color: #18c184;
+}
+
+img{
+	height: 150px;
+	width: 150px;
+}
+
+.card{
+	height: 400px;
+	width: 18rem;
+	vertical-align: top;
+}
