@@ -5,11 +5,18 @@
 }
 
 #intro_page{
-	background-color: #4e939e;
+	height: auto;
+	background-image: url(https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	/*It stretches our bg image to cover the area of the element.*/
+	background-size: cover;
+	/*prevents your bg image to repeat*/
+	background-repeat: no-repeat;
+	/*to position the bg image in the center */
+	background-position: center;
 }
 
-nav{
-	background-color: #18c184;
+nav, footer{
+	background-color:#4e939e;
 }
 
 #profilePic{
@@ -26,4 +33,21 @@ nav{
  #otherTools_div img, #cssjs_div img, #html_div img{
 	height: 100px;
 	width: 100px;
+}
+
+#gmap_canvas{
+	height: 50vh;
+	width: 100%;
+}
+#social{
+	height: 50px;
+	width: 50px;
+}
+
+#send_button{
+	width: 100%;
+}
+
+#footer p{
+	margin: 0;
 }
