@@ -22,3 +22,8 @@ nav{
 	width: 18rem;
 	vertical-align: top;
 }
+
+ #otherTools_div img, #cssjs_div img, #html_div img{
+	height: 100px;
+	width: 100px;
+}
